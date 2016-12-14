@@ -1,0 +1,43 @@
+@media screen and (min-width: 700px){
+nav {
+  position:fixed;
+  z-index:1;
+  width:100%;
+  left:0px;
+  margin-top:10px;
+
+}
+
+nav ul {
+  list-style-type:none;
+  padding: 5px 0px;
+  margin-right: 20px;
+  float:right;
+
+}
+
+nav li {
+  display: inline;
+  padding: 10px 5px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  border:1.5px solid;
+  padding: 10px;
+  background-color: black;
+  opacity: .8;
+
+}
+nav a:hover{
+  background-color:#981E32;
+  color:#ffffff;
+  opacity: 1;
+  transition: opacity .5s;
+  transition:background-color .5s;
+}
+}
+  
